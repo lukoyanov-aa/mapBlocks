@@ -24,9 +24,8 @@
         <p>Click tab strip to swap tab panel content.</p>
         <div style="margin:20px 0 10px 0;"></div>
         <div class="easyui-tabs" style="width:100%;height:500px">
-            <div title="Управление приложением" style="padding:10px">
-                <!-- Переименовать myUpdate()-->
-                <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-add'" onclick="myUpdate();return false">Добавить блок</a>
+            <div title="Управление приложением" style="padding:10px">                
+                <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-add'" onclick="addBlocks();return false">Добавить блок</a>
                 <!-- Доделать реализацию-->
                 <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-remove'">Удалить блок</a>                               
             </div>

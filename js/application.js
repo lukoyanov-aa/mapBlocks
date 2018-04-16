@@ -1,5 +1,5 @@
 //Переименовать
-function myUpdate(){    
+function addBlocks(){    
           BX24.callMethod(
          'landing.repo.register',         
          data,
