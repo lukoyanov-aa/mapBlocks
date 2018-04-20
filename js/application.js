@@ -150,3 +150,17 @@ $(document).ready(function() {
 	var new_center = [center[0].toFixed(4), center[1].toFixed(4)];	
 	document.getElementById("latlongcenter").value = new_center;	
 	}
+        
+function resizeFrame() {
+
+	var currentSize = BX24.getScrollSize();
+	minHeight = currentSize.scrollHeight;
+	
+	if (minHeight < 800) minHeight = 800;
+	BX24.resizeWindow(this.FrameWidth, minHeight);
+
+}
+
+function saveFrameWidth() {
+	this.FrameWidth = document.getElementById("app").offsetWidth;
+}
