@@ -12,7 +12,20 @@ function addBlocks(){
          }
       );
       }
-
+      
+ function delBlocks(){
+    BX24.callMethod('landing.repo.unregister',
+          {code: 'ru.webmens.yamap.jon'},
+          function(result)
+          {
+              if(result.error())
+                  console.error(result.error());
+              else
+                  console.info(result.data());
+          }
+      );
+    }
+        
 BX24.init(
     function(){
         BX24.callMethod('app.info',

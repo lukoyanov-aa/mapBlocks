@@ -30,7 +30,7 @@
                 <div title="Управление приложением" style="padding:10px">                
                     <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-add'" onclick="addBlocks();return false">Добавить блок</a>
                     <!-- Доделать реализацию-->
-                    <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-remove'">Удалить блок</a>                               
+                    <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-remove'" onclick="delBlocks();return false">Удалить блок</a>                               
                 </div>
                 <div title="Управление координатами" style="padding:10px">
                     <!-- Реализовать пагинацию-->
