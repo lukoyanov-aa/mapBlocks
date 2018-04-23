@@ -28,9 +28,9 @@
             <div style="margin:20px 0 10px 0;"></div>
             <div class="easyui-tabs" style="width:100%;height:500px">
                 <div title="Управление приложением" style="padding:10px">                
-                    <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-add'" onclick="addBlocks();return false">Добавить блок</a>
+                    <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-add'" onclick="app.addBlocks();return false">Добавить блок</a>
                     <!-- Доделать реализацию-->
-                    <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-remove'" onclick="delBlocks();return false">Удалить блок</a>                               
+                    <a href="#" class="easyui-linkbutton" data-options="iconCls:'icon-remove'" onclick="app.delBlocks();return false">Удалить блок</a>                               
                 </div>
                 <div title="Управление координатами" style="padding:10px">
                     <!-- Реализовать пагинацию-->

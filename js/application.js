@@ -1,31 +1,3 @@
-//Переименовать
-function addBlocks(){    
-          BX24.callMethod(
-         'landing.repo.register',         
-         data,
-         function(result)
-         {
-            if(result.error())
-               console.error(result.error());
-            else
-               console.info(result.data());
-         }
-      );
-      }
-      
- function delBlocks(){
-    BX24.callMethod('landing.repo.unregister',
-          {code: 'ru.webmens.yamap.jon'},
-          function(result)
-          {
-              if(result.error())
-                  console.error(result.error());
-              else
-                  console.info(result.data());
-          }
-      );
-    }
-        
 BX24.init(
     function(){
         BX24.callMethod('app.info',
@@ -43,6 +15,33 @@ BX24.init(
 function application () {
 	//this.arDealSum = {};
 	//this.arInstallRaringUsers = {};
+}
+
+application.prototype.addBlocks = function () {    
+    BX24.callMethod(
+        'landing.repo.register',         
+        data,
+        function(result)
+            {
+                if(result.error())
+                    console.error(result.error());
+                else
+                    console.info(result.data());
+            }
+    );
+}
+
+application.prototype.delBlocks = function () {
+    BX24.callMethod('landing.repo.unregister',
+        {code: 'ru.webmens.yamap.jon'},
+        function(result)
+            {
+                if(result.error())
+                    console.error(result.error());
+                else
+                    console.info(result.data());
+            }
+    );
 }
 
 /* common methods */
