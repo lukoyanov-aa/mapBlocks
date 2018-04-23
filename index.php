@@ -17,6 +17,7 @@
 		<script type="text/javascript" src="js/data.js"></script>
 		<script type="text/javascript" src="js/application.js"></script>
                 <script type="text/javascript" src="js/yaMap.js"></script> 
+                <script type="text/javascript" src="js/form.js"></script> 
                 <!-- Переделать на YA API 2.1-->
                 <script src="https://api-maps.yandex.ru/2.0/?load=package.full&amp;lang=ru-RU"" type="text/javascript"></script>
     </head>
