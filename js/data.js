@@ -4,7 +4,7 @@ data = {
          code: 'ru.webmens.yamap.jon',
          fields: {
              
-            NAME: 'ymapJon',
+            NAME: 'ymapJon11',
             DESCRIPTION: 'Блок добавляет Яндекс карту',
             SECTIONS: 'contacts, popular',
             PREVIEW: 'https:\/\/www.bitrix24.ru\/images\/b24_screen.png',
@@ -36,7 +36,7 @@ data = {
                      'https://yamap.webmens.ru/ruWebmens/mapBlocks/blocks/css/style.css'
                  ],
                  js: ['https://api-maps.yandex.ru/2.1/?lang=ru_RU',
-			'https://yamap.webmens.ru/ruWebmens/mapBlocks/block/js/ymap.js'
+			'https://yamap.webmens.ru/ruWebmens/mapBlocks/blocks/js/ymap.js'
                  ]
               },
               attrs: {
