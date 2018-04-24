@@ -1,16 +1,3 @@
-BX24.init(
-    function(){
-        BX24.callMethod('app.info',
-            {}, 
-            function(result){
-                console.log(result);
-            }
-        );
-        console.log(BX24.getAuth());
-    }
-);
-//console.log(BX24.callMethod("app.info"));
-
 // our application constructor
 function application () {
 	//this.arDealSum = {};
