@@ -48,6 +48,6 @@
         </script>
     </head>
     <body>
-        <div>TODO write content</div>
+        
     </body>
 </html>

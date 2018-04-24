@@ -1,3 +1,13 @@
+var appId;
+
+$(document).ready(function () {                
+    BX24.callMethod('app.info',
+        {}, 
+        function(result){
+            appId = result['answer']['result']['CODE'];                      
+        }
+    );
+});
 // our application constructor
 function application () {
 	//this.arDealSum = {};
