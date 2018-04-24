@@ -23,7 +23,7 @@
 //                                        }
 //                                        else {
 //                                            console.log('udacha');
-//                //				BX24.installFinish();
+                                    BX24.installFinish();
 //                                        }
                                 }
 
