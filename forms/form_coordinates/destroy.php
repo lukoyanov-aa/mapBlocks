@@ -4,7 +4,7 @@ include_once '../../config.php';
 
 $id = intval($_REQUEST['id']);
 if(htmlspecialchars($_GET["appId"]) == APP_ID){
-    $file = file_get_contents('data.json');  // Открыть файл data.json
+    $file = file_get_contents('../../data.json');  // Открыть файл data.json
     $taskList = json_decode($file,TRUE);        // Декодировать в массив
     
     unset($taskList[array_search($id, array_column($taskList, 'id'))]); // Это удаляет элемент из массива
