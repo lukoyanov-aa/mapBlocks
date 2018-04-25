@@ -4,7 +4,7 @@ data = {
          code: 'ru.webmens.yamap.jon',
          fields: {
              
-            NAME: 'ymapJon11',
+            NAME: 'Яндекс карта со стикером',
             DESCRIPTION: 'Блок добавляет Яндекс карту',
             SECTIONS: 'contacts, popular',
             PREVIEW: 'https:\/\/yamap.webmens.ru\/ruWebmens\/mapBlocks\/blocks\/block_0\/img\/logo.png',
