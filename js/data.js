@@ -33,7 +33,8 @@ data = {
               assets: {
                  css: ['https://yamap.webmens.ru/ruWebmens/mapBlocks/blocks/css/global.css', 
                      'https://yamap.webmens.ru/ruWebmens/mapBlocks/blocks/css/offcanvas.css',
-                     'https://yamap.webmens.ru/ruWebmens/mapBlocks/blocks/css/style.css'
+                     'https://yamap.webmens.ru/ruWebmens/mapBlocks/blocks/css/style.css',
+                     'https://yamap.webmens.ru/ruWebmens/mapBlocks/blocks/block_0/css/style.css'
                  ],
                  js: ['https://api-maps.yandex.ru/2.1/?lang=ru_RU',
 			'https://yamap.webmens.ru/ruWebmens/mapBlocks/blocks/js/ymap.js'
