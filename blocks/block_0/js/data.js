@@ -37,7 +37,8 @@ data = {
                      'https://yamap.webmens.ru/ruWebmens/mapBlocks/blocks/block_0/css/style.css'
                  ],
                  js: ['https://api-maps.yandex.ru/2.1/?lang=ru_RU',
-			'https://yamap.webmens.ru/ruWebmens/mapBlocks/blocks/js/ymap.js'
+			'https://yamap.webmens.ru/ruWebmens/mapBlocks/blocks/js/ymap.js',
+                        'https://yamap.webmens.ru/ruWebmens/lib/script.js'
                  ]
               },
               attrs: {
