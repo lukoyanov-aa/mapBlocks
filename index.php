@@ -14,7 +14,7 @@
                 <script type="text/javascript" src="../vendor/jquery-easyui-1.5.4.4/locale/easyui-lang-ru.js"></script>
                 <script src="//api.bitrix24.com/api/v1/"></script>
                 <!-- Следующие 2 скрипта переписать на PHP-->
-		<script type="text/javascript" src="js/data.js"></script>
+                <script type="text/javascript" src="blocks/block_0/js/data.js"></script>
 		<script type="text/javascript" src="js/application.js"></script>
                 <script type="text/javascript" src="js/yaMap.js"></script> 
                 <script type="text/javascript" src="js/form.js"></script> 
