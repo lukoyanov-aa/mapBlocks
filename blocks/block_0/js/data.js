@@ -7,7 +7,7 @@ data = {
             NAME: 'ymapJon11',
             DESCRIPTION: 'Блок добавляет Яндекс карту',
             SECTIONS: 'contacts, popular',
-            PREVIEW: 'https:\/\/www.bitrix24.ru\/images\/b24_screen.png',
+            PREVIEW: 'https:\/\/yamap.webmens.ru\/ruWebmens\/mapBlocks\/blocks\/block_0\/img\/logo.png',
             CONTENT: '<section class="landing-block">\n\
                         <div class="map-info">\n\
                             <div class="">\n\
