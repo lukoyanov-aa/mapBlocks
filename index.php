@@ -35,7 +35,7 @@
                 <div title="Управление координатами" style="padding:10px">
                     <!-- Реализовать пагинацию-->
                     <table id="dg" title="Координаты" class="easyui-datagrid" style="width:100%;height:250px"
-                            url= 'get.php'
+                            url= 'forms/form_coordinates/get.php'
                             toolbar="#toolbar" pagination="false"
                             rownumbers="true" fitColumns="true" singleSelect="true">
                         <thead>
