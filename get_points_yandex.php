@@ -20,6 +20,13 @@ foreach ($taskList as $item){
             'geometry' => array(
                 'type' => 'Point',
                 'coordinates' => array($item['latitude'], $item['longitude'])
+            ),
+            'properties' => array(
+                'balloonContentHeader' => htmlspecialchars_decode($item['balloonContentHeader']),
+                'balloonContentBody' => htmlspecialchars_decode($item['balloonContentBody']),
+                'balloonContentFooter' => htmlspecialchars_decode($item['balloonContentFooter']),
+                'clusterCaption' => htmlspecialchars_decode($item['clusterCaption']),
+                'hintContent' => htmlspecialchars_decode($item['hintContent'])
             )
         )  
     );

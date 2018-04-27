@@ -42,6 +42,11 @@
                                 <tr>
                                         <th field="latitude" width="50">Долгота</th>
                                         <th field="longitude" width="50">Широта</th>
+                                        <th field="balloonContentHeader" width="150">Заголовок</th>
+                                        <th field="balloonContentBody" width="150">Тело</th>
+                                        <th field="balloonContentFooter" width="150">Подвал</th>
+                                        <th field="clusterCaption" width="50">Название в кластере</th>
+                                        <th field="hintContent" width="50">Подсказка</th>
 
                                 </tr>
                         </thead>
@@ -70,18 +75,31 @@
                 </div>
             </div>
         </div>  
-	<div id="dlg" class="easyui-dialog" style="width:400px;height:280px;padding:10px 20px"
+	<div id="dlg" class="easyui-dialog" style="width:500px;height:600px;padding:10px 20px"
 			closed="true" buttons="#dlg-buttons">
 		<div class="ftitle">Координата</div>
-		<form id="fm" method="post" novalidate>
-			<div class="fitem">
-				<label>Долгота:</label>
-				<input name="latitude" class="easyui-textbox" required="true">
+		<form id="fm" method="post" novalidate style="padding:0px 20px">
+			<div class="fitem">                            
+                            <input name="latitude" label="Долгота:" labelPosition="top" class="easyui-textbox" required="true" style="width:100%;">
 			</div>
 			<div class="fitem">
-				<label>Широта:</label>
-				<input name="longitude" class="easyui-textbox" required="true">
-			</div>			
+                            <input name="longitude" label="Широта:" labelPosition="top" class="easyui-textbox" required="true" style="width:100%;">
+			</div>
+                        <div class="fitem">
+                            <input name="balloonContentHeader" label="Заголовок:" labelPosition="top" class="easyui-textbox" style="width:100%;">
+			</div>
+                        <div class="fitem">
+                            <input name="balloonContentBody" label="Тело:" labelPosition="top" class="easyui-textbox" style="width:100%;">
+			</div>
+                        <div class="fitem">
+                            <input name="balloonContentFooter" label="Подвал:" labelPosition="top" class="easyui-textbox" style="width:100%;">
+			</div>
+                        <div class="fitem">
+                            <input name="clusterCaption" label="Название в кластере:" labelPosition="top" class="easyui-textbox" style="width:100%;">
+			</div>
+                        <div class="fitem">
+                            <input name="hintContent" label="Подсказка:" labelPosition="top" class="easyui-textbox" style="width:100%;">
+			</div>
 		</form>
 	</div>
 	<div id="dlg-buttons">
