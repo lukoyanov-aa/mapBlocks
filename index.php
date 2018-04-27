@@ -47,13 +47,6 @@
                                         <th field="balloonContentFooter" width="150">Подвал</th>
                                         <th field="clusterCaption" width="50">Название в кластере</th>
                                         <th field="hintContent" width="50">Подсказка</th>
-                                        
-                                        <th field="iconLayout" width="50">Тип макета</th>
-                                        <th field="iconImageHref" width="50">Изображение метки</th>
-                                        <th field="iconImageSizeWidth" width="50">Ширина метки</th>
-                                        <th field="iconImageSizeHeight" width="50">Высота метки</th>
-                                        <th field="iconImageOffsetHorizontal" width="50">Горизонтальный отступ</th>
-                                        <th field="iconImageOffsetVertical" width="50">Вертикальный отступ</th>
 
                                 </tr>
                         </thead>
