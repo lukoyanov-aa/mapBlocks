@@ -9,25 +9,36 @@ data = {
             SECTIONS: 'contacts, popular',
             PREVIEW: 'https:\/\/yamap.webmens.ru\/ruWebmens\/mapBlocks\/blocks\/block_0\/img\/logo.png',
             CONTENT: '<section class="landing-block">\n\
-                        <div class="map-info">\n\
-                            <div class="">\n\
-                                <div class=""></div>\n\
-                                <div class="">\n\
-                                    <div class="">г. Краснодар</div>\n\
-                                    <div class="">350089, г. Краснодар, Рождественская набережная д.3, подъезд 5, офис 92.</div>\n\
-                                    <div class="landing-block-card">\n\
-                                        <div class="icon icon-phone"></div>\n\
-                                        <p>8-900-23-33-307</p>\n\
-                                    </div>\n\
-                                    <div class="landing-block-card">\n\
-                                        <div class="icon icon-envelope"></div>\n\
-                                        <p>hjkh@hjkhkj.hj</p>\n\
-                                    </div>\n\
+                        <div class="map-info conteiner">\n\
+                            <div class="row">\n\
+                                <div class="block-adress_title col-md-12">\n\
+                                    г. Краснодар 350089, г. Краснодар, Рождественская набережная д.3, подъезд 5, офис 92.\n\
+                                </div>\n\
+                                <div class="block-timetable_title col-md-12 mt-3">\n\
+                                    Режим работы:\n\
+                                </div>\n\
+                                <div class="block-timetable_text col-md-12 mt-1">\n\
+                                    пн - пт: 8:00 - 18:00\n\
                                 </div>\n\
                             </div>\n\
+                            <div class="block-card-contact row mt-3">\n\
+                                <div class="block-card-contact_icon icon icon-phone col-md-1">\n\
+                                </div>\n\
+                                <p class="block-card-contact_text col-md-11">\n\
+                                    8-900-23-33-307\n\
+                                </p>\n\
+                            </div>\n\
+                            <div class="block-card-contact row mt-3">\n\
+                                <div class="block-card-contact_icon icon icon-envelope col-md-1">\n\
+                                </div>\n\
+                                <p class="block-card-contact_text col-md-11">\n\
+                                    info@mail.ru\n\
+                                </p>\n\
+                            </div>\n\
                         </div>\n\
-                        <div id="map" class="g-h_450"></div>\n\
-</section>'
+                        <div id="map" class="g-h_450">\n\
+                        </div>\n\
+                    </section>'
         },
         manifest: {
               assets: {
@@ -110,16 +121,28 @@ data = {
                 ]                 
               },
               cards:{
-                  '.landing-block-card':{
+                  '.block-card-contact':{
                       name: 'колонка'
                   }                  
               },
               nodes:{
-                  '.landing-block-card p':{
+                  '.block-card-contact p':{
                       name: 'текст колонки',
                       type: 'text'
                   },
-                  '.landing-block-card .icon':{
+                  '.block-adress_title':{
+                      name: 'адрес',
+                      type: 'text'
+                  },
+                  '.block-timetable_title':{
+                      name: 'режим работы',
+                      type: 'text'
+                  },
+                  '.block-timetable_text':{
+                      name: 'время',
+                      type: 'text'
+                  },
+                  '.block-card-contact .icon':{
                       name: 'иконка колонки',
                       type: 'icon'
                   }
@@ -129,11 +152,23 @@ data = {
                       name: 'блок инфо',
                       type: 'box'
                   },
-                  '.landing-block-card p': {
+                  '.block-adress_title':{
+                      name: 'адрес',
+                      type: 'typo'
+                  },
+                  '.block-timetable_title':{
+                      name: 'режим работы',
+                      type: 'typo'
+                  },
+                  '.block-timetable_text':{
+                      name: 'время',
+                      type: 'typo'
+                  },
+                  '.block-card-contact p': {
                       name: 'текст колонки',
                       type: 'typo'
                   },
-                  '.landing-block-card .icon': {
+                  '.block-card-contact .icon': {
                       name: 'иконка колонки',
                       type: 'typo'
                   }
